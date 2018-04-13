@@ -1,0 +1,12 @@
+OPTIONS ( skip=1 )
+LOAD DATA
+INFILE '/home/hong1/460/finalProject/csvFiles/SITE_USER.csv'
+INTO TABLE SITE_USER
+fields terminated by ","
+optionally enclosed by '"'
+(
+	UserID,
+	Username,
+	Password,
+	User_Type
+)

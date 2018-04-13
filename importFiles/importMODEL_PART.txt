@@ -1,0 +1,10 @@
+OPTIONS ( skip=1 )
+LOAD DATA
+INFILE '/home/hong1/460/finalProject/csvFiles/MODEL_PART.csv'
+INTO TABLE MODEL_PART
+fields terminated by ","
+optionally enclosed by '"'
+(
+	MID,
+	PID INTEGER EXTERNAL Terminated by Whitespace
+)

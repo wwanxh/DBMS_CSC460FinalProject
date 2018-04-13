@@ -1,0 +1,8 @@
+CusID,Firstname,Lastname,Address,Username,Password,Total_Spent,User_Type
+11001,Thor,Odinson,"Royal Palace, Asgard",Mjolnir,123456,1000000,
+11002,Loki,Laufeyson,"Royal Palace, Asgard",Loki123,123456,5000000,
+11003,Tony,Stark,"10880 Malibu Point, Florida",IronMan,123456,987654321,
+11004,Morty,Smith,"Smith Residence, Washington, USA, Earth",MortyxxxJessca,123456,50000000,
+11005,Rick,Sanchez,"Smith Residence, Washington, USA, Earth",WubbaLubbaDubDub,123456,10000000,
+11006,Wenkang,Zhou,"1040 E 4th St, Tucson, AZ",wenkang,123456,110000000,
+11007,,,,admin,admin,,admin

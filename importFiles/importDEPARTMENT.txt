@@ -1,0 +1,11 @@
+OPTIONS ( skip=1 )
+LOAD DATA
+INFILE '/home/hong1/460/finalProject/csvFiles/DEPARTMENT.csv'
+INTO TABLE DEPARTMENT
+fields terminated by ","
+optionally enclosed by '"'
+(
+	DID,
+	MID,
+	Name
+)

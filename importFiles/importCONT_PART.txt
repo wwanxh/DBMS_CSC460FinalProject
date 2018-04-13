@@ -1,0 +1,11 @@
+OPTIONS ( skip=1 )
+LOAD DATA
+INFILE '/home/hong1/460/finalProject/csvFiles/CONT_PART.csv'
+INTO TABLE CONT_PART
+fields terminated by ","
+optionally enclosed by '"'
+(
+	ContID,
+	PID,
+	Status INTEGER EXTERNAL Terminated by Whitespace
+)

@@ -1,0 +1,16 @@
+OPTIONS ( skip=1 )
+LOAD DATA
+INFILE '/home/hong1/460/finalProject/csvFiles/CUSTOMER.csv'
+INTO TABLE CUSTOMER
+fields terminated by ","
+optionally enclosed by '"'
+(
+	CusID,
+	Firstname,
+	Lastname,
+	Address,
+	Username,
+	Password,
+	Total_Spent,
+	User_Type
+)

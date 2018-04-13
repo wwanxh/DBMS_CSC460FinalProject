@@ -1,0 +1,11 @@
+OPTIONS ( skip=1 )
+LOAD DATA
+INFILE '/home/hong1/460/finalProject/csvFiles/PART.csv'
+INTO TABLE PART
+fields terminated by ","
+optionally enclosed by '"'
+(
+	PID,
+	Name,
+	Price INTEGER EXTERNAL Terminated by Whitespace
+)

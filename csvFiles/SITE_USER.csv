@@ -1,0 +1,3 @@
+UserID,Username,Password, User_Type
+99999,admin,adminpass,administrator
+10000,buyer,buyerpass,customer

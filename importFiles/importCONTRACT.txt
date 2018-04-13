@@ -1,0 +1,14 @@
+OPTIONS ( skip=1 )
+LOAD DATA
+INFILE '/home/hong1/460/finalProject/csvFiles/CONTRACT.csv'
+INTO TABLE CONTRACT
+fields terminated by ","
+optionally enclosed by '"'
+(
+	ContID,
+	CusID,
+	MID,
+	DID,
+	Invoice,
+	Timestamp
+)

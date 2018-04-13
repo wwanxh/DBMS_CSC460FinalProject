@@ -1,0 +1,6 @@
+CREATE TABLE DEPARTMENT(
+DID integer NOT NULL,
+MID integer NOT NULL,
+Name varchar2(16),
+PRIMARY KEY(DID)
+);
